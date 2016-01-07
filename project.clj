@@ -9,7 +9,7 @@
   :source-paths ["src/main/clj"]
   :test-paths ["src/test/clj"]
   
-  :resource-paths ["resources"]
+  :resource-paths ["src/test/resources"]
   
   :profiles {:dev {:dependencies [[net.mikera/cljunit "0.3.1"]]
                    :java-source-paths ["src/test/java"]}}
