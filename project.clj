@@ -3,7 +3,8 @@
   :dependencies [[org.clojure/clojure "1.8.0-RC4"]
                  [net.mikera/core.matrix "0.48.0"]
                  [org.clojure/test.check "0.9.0"]
-                 [org.clojure/data.csv "0.1.3"]]
+                 [org.clojure/data.csv "0.1.3"]
+                 [prismatic/schema "1.0.4"]]
   
   :source-paths ["src/main/clj"]
   :test-paths ["src/test/clj"]
